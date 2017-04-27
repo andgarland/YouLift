@@ -10,6 +10,7 @@ import UIKit
 
 class WorkoutTableViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var customTableView: UITableView!
     
@@ -27,6 +28,7 @@ class WorkoutTableViewController: UIViewController, UITableViewDelegate, UITable
         
         customTableView.delegate = self
         customTableView.dataSource = self
+        
     }
 
     override func didReceiveMemoryWarning() {
